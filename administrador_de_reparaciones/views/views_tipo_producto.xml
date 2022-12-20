@@ -12,7 +12,7 @@
     </record>
 
 
-    <record id="product_product_tipo_producto._form_view" model="ir.ui.view">
+    <record id="product_product_tipo_producto_form_view" model="ir.ui.view">
         <field name="name">product.product.tipo.producto.form</field>
         <field name="model">product.product.tipo.producto</field>
         <field name="type">form</field>
