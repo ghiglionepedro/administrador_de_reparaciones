@@ -1,4 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_product_product_modelo ,access_product_product_modelo ,product.product.modelo ,stock.group_stock_user,1,1,1,1
 access_product_product_marca,access_product_product_marca,product.product.marca,stock.group_stock_user,1,1,1,1
-access_product_product_tipo.equipo,access_product_product_tipo_equipo,product.product.tipo_equipo,stock.group_stock_user,1,1,1,1
+access_product_product_tipo_equipo,access_product_product_tipo_equipo,product.product.tipo_equipo,stock.group_stock_user,1,1,1,1
