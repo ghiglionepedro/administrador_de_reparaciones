@@ -30,7 +30,7 @@
         'views/views_marca.xml',
         'views/views_modelo.xml',
         'views/views_product.xml',
-        'views/views_tipo_producto.xml',
+        'views/views_tipo_equipo.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
