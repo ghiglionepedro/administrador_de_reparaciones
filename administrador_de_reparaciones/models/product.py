@@ -2,7 +2,7 @@ from odoo.exceptions import ValidationError
 from odoo import models, fields
 
 class administrador_reparaciones_product(models.Model):
-    _inherit = 'product.product'
+    _inherit = 'product.template'
 
     
     product_id = fields.Many2one('product.product.tipo.producto', string='Equipo', required=True)
