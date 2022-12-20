@@ -29,7 +29,6 @@
         'data/data.xml',
         'views/views_marca.xml',
         'views/views_modelo.xml',
-        'views/views_partner.xml',
         'views/views_tipo_producto.xml',
     ],
     # only loaded in demonstration mode
