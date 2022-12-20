@@ -1,14 +1,6 @@
 <odoo>
   <data>
 
-        <!-- Añadimos el campo DNI al modelo res.partner -->
-        <record id="res_partner_dni" model="ir.model.fields">
-            <field name="model_id" ref="base.model_res_partner"/>
-            <field name="name">dni</field>
-            <field name="field_description">DNI</field>
-            <field name="ttype">char</field>
-        </record>
-
         <!-- Modificamos la vista árbol (tree view) para mostrar el campo DNI -->
         <record id="res_partner_tree_view_dni" model="ir.ui.view">
             <field name="name">res.partner.tree.dni</field>
