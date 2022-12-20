@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+Acceso a modelos de equipo,access.product.product.modelo ,product.product.modelo ,stock.group_stock_user,1,1,1,1
+Acceso a marcas de equipo,access.product.product.marca,product.product.marca,stock.group_stock_user,1,1,1,1
+Acceso a tipo de equipo,access.product.product.tipo.equipo,product.product.tipo.equipo,stock.group_stock_user,1,1,1,1
