@@ -1,0 +1,31 @@
+<odoo>
+  <data>
+    <record id="product_product_marcas_tree_view" model="ir.ui.view">
+        <field name="name">product.product.marca.tree</field>
+        <field name="model">product.product.marca</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Marcas">
+                <field name="nombre" />
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="product_product_marcas_form_view" model="ir.ui.view">
+        <field name="name">product.product.marca.form</field>
+        <field name="model">product.product.marca</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Marca">
+                <group>
+                    <field name="nombre" />
+                </group>
+            </form>
+        </field>
+    </record>
+
+
+
+  </data>
+</odoo>

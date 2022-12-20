@@ -1,0 +1,31 @@
+<odoo>
+  <data>
+    <record id="product_product_modelos_tree_view" model="ir.ui.view">
+        <field name="name">product.product.modelo.tree</field>
+        <field name="model">product.product.modelo</field>
+        <field name="type">tree</field>
+        <field name="arch" type="xml">
+            <tree string="Modelos">
+                <field name="nombre" />
+            </tree>
+        </field>
+    </record>
+
+
+    <record id="product_product_modelos_form_view" model="ir.ui.view">
+        <field name="name">product.product.modelo.form</field>
+        <field name="model">product.product.modelo</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form string="Modelo">
+                <group>
+                    <field name="nombre" />
+                </group>
+            </form>
+        </field>
+    </record>
+
+
+
+  </data>
+</odoo>
