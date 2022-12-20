@@ -1,7 +1,7 @@
 from odoo.exceptions import ValidationError
 from odoo import models, fields
 
-class Partner(models.Model):
+class administrador_reparaciones_partner(models.Model):
     _inherit = 'res.partner'
 
     dni = fields.Char(string='DNI')

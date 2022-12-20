@@ -1,7 +1,7 @@
 from odoo.exceptions import ValidationError
 from odoo import models, fields
 
-class tipo_producto(models.Model):
+class administrador_reparaciones_tipo_producto(models.Model):
     _name = 'product.product.tipo.producto'
     _description = 'Tipo de producto de los equipos'
 
