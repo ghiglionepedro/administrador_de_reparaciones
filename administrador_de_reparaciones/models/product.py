@@ -6,4 +6,4 @@ class administrador_reparaciones_product(models.Model):
 
     
     product_id = fields.Many2one('product.product.tipo.producto', string='Equipo', required=True)
-    tipo_producto_id = fields.Many2one('product.product.tipo.producto', string='Tipo de Producto', required=True)
+    tipo_producto_id = fields.Many2one('product.product.tipo.equipo', string='Tipo de equipo', required=True)
