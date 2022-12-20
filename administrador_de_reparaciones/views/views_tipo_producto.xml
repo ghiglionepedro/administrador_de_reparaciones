@@ -27,7 +27,7 @@
     </record>-->
 
     <!--Agregar el campo en la vista de product.product-->
-
+<!--
         <record model="ir.ui.view" id="product_tree_view">
             <field name="name">product.tree</field>
             <field name="model">product.product</field>
@@ -50,6 +50,6 @@
                 </field>
             </field>
         </record>
-
+-->
   </data>
 </odoo>
