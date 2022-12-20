@@ -1,5 +1,6 @@
 <odoo>
   <data>
+  <!--
     <record id="product_product_tipo_producto_tree_view" model="ir.ui.view">
         <field name="name">product.product.tipo.producto.tree</field>
         <field name="model">product.product.tipo.producto</field>
@@ -23,7 +24,7 @@
                 </group>
             </form>
         </field>
-    </record>
+    </record>-->
 
     <!--Agregar el campo en la vista de product.product-->
 
