@@ -30,7 +30,7 @@
         <record model="ir.ui.view" id="product_tree_view">
         <field name="name">product.tree</field>
         <field name="model">product.product</field>
-        <field name="inherit_id" ref="product.product_template_tree_view"/>
+        <field name="inherit_id" ref="product.product_product_tree_view"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
                 <field name="tipo_producto_id"/>
@@ -40,7 +40,7 @@
         <record model="ir.ui.view" id="product_form_view">
         <field name="name">product.form</field>
         <field name="model">product.product</field>
-        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="inherit_id" ref="product.product_product_only_form_view"/>
         <field name="arch" type="xml">
             <field name="name" position="after">
                 <field name="tipo_producto_id"/>
