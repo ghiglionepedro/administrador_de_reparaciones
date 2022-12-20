@@ -5,5 +5,6 @@ class administrador_reparaciones_product(models.Model):
     _inherit = 'product.product'
 
     
-    product_id = fields.Many2one('product.product.tipo.producto', string='Equipo', required=True)
-    tipo_producto_id = fields.Many2one('product.product.tipo.equipo', string='Tipo de equipo', required=True)
+    tipo_equipo_id = fields.Many2one('product.product.tipo.equipo', string='Equipo', required=True)
+    marca_id = fields.Many2one('product.product.marca', string='Tipo de Producto', required=True)
+    modelo_id = fields.Many2one('product.product.modelo', string='Modelo', required=True)

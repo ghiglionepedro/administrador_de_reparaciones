@@ -1,34 +1,29 @@
 <odoo>
   <data>
-  <!--
-    <record id="product_product_tipo_producto_tree_view" model="ir.ui.view">
-        <field name="name">product.product.tipo.producto.tree</field>
-        <field name="model">product.product.tipo.producto</field>
-        <field name="type">tree</field>
-        <field name="arch" type="xml">
-            <tree string="Tipo de producto">
-                <field name="nombre" />
-            </tree>
-        </field>
-    </record>
-
-
-    <record id="product_product_tipo_producto_form_view" model="ir.ui.view">
-        <field name="name">product.product.tipo.producto.form</field>
-        <field name="model">product.product.tipo.producto</field>
-        <field name="type">form</field>
-        <field name="arch" type="xml">
-            <form string="Tipo de producto">
-                <group>
+        <record id="product_product_tipo_equipo_tree_view" model="ir.ui.view">
+            <field name="name">product.product.tipo.equipo.tree</field>
+            <field name="model">product.product.tipo.equipo</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Tipo de quipo">
                     <field name="nombre" />
-                </group>
-            </form>
-        </field>
-    </record>-->
+                </tree>
+            </field>
+        </record>
 
-    <!--Agregar el campo en la vista de product.product-->
-<!--
 
--->
+        <record id="product_product_tipo_equipo_form_view" model="ir.ui.view">
+            <field name="name">product.product.tipo.equipo.form</field>
+            <field name="model">product.product.tipo.equipo</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Tipo de equipo">
+                    <group>
+                        <field name="nombre" />
+                    </group>
+                </form>
+            </field>
+        </record>
+
   </data>
 </odoo>

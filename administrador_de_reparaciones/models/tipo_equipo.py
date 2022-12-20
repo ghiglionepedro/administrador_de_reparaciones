@@ -6,4 +6,3 @@ class administrador_reparaciones_tipo_equipo(models.Model):
     _description = 'Tipo de producto de los equipos'
 
     nombre = fields.Char(string='Nombre', required=True)
-    marca_id = fields.Many2one('product.product.marca', string='Tipo de Producto', required=True)
