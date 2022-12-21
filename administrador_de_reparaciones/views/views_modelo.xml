@@ -6,8 +6,8 @@
         <field name="type">tree</field>
         <field name="arch" type="xml">
             <tree string="Modelos">
-                <field name="tipo_equipo_id" widget="many2one_select"  create="1" domain="[('marca_id', '=', marca_id)]"/>
-                <field name="marca_id" widget="many2one_select" />
+                <field name="tipo_equipo_id" widget="many2one_select"  create="1"/>
+                <field name="marca_id" widget="many2one_select"  domain="[('marca_id', '=', marca_id)]"/>
                 <field name="nombre" />
             </tree>
         </field>
@@ -22,8 +22,8 @@
             <form string="Modelo">   
                 <sheet>
                     <group>
-                        <field name="tipo_equipo_id" widget="many2one_select"  create="1" domain="[('marca_id', '=', marca_id)]"/>
-                        <field name="marca_id" widget="many2one_select" />
+                        <field name="tipo_equipo_id" widget="many2one_select"  create="1" />
+                        <field name="marca_id" widget="many2one_select" domain="[('marca_id', '=', marca_id)]" />
                         <field name="nombre" />
                     </group>
                 </sheet>
