@@ -3,8 +3,8 @@
     <data>
   
         <menuitem id="menu_repair_products" name="Products" parent="repair.menu_repair_order" />
-        <menuitem id="menu_repair_product_menu_catalog" name="Products" parent="repair.menu_repair_products" sequence="2" />
-        <menuitem id="menu_repair_menu_product" name="Product Variants" parent="repair.menu_repair_products" sequence="3" />
+        <menuitem id="menu_repair_product_menu_catalog" name="Products" parent="menu_repair_products" />
+        <menuitem id="menu_repair_menu_product" name="Product Variants" parent="menu_repair_products" />
 
     </data>
 </odoo>
