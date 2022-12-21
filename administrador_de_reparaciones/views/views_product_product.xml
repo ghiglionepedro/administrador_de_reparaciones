@@ -6,9 +6,9 @@
             <field name="inherit_id" ref="product.product_product_tree_view"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='barcode']" position="after">
-                    <field name="tipo_equipo_id" string="Tipo de equipo" create="1"/>
-                    <field name="marca_id" string="Marca de equipo" create="1" domain="[('marca_id', '=', tipo_equipo_id.marca_id)]"/>
-                    <field name="modelo_id" string="Modelo de equipo" create="1" domain="[('modelo_id', '=', marca_id.modelo_id)]"/>
+                                <field name="tipo_equipo_id" string="Tipo de equipo" create="1"/>
+                                <field name="marca_id" string="Marca de equipo" create="1" domain="[('ipo_equipo_id.marca_id', '=', tmarca_id)]"/>
+                                <field name="modelo_id" string="Modelo de equipo" create="1" domain="[('marca_id.modelo_id', '=', modelo_id)]"/>
                 </xpath>
             </field>
         </record>
@@ -22,8 +22,8 @@
                         <page string="Reparaciones" name="repairs">
                             <group>
                                 <field name="tipo_equipo_id" string="Tipo de equipo" create="1"/>
-                                <field name="marca_id" string="Marca de equipo" create="1" domain="[('marca_id', '=', tipo_equipo_id.marca_id)]"/>
-                                <field name="modelo_id" string="Modelo de equipo" create="1" domain="[('modelo_id', '=', marca_id.modelo_id)]"/>
+                                <field name="marca_id" string="Marca de equipo" create="1" domain="[('ipo_equipo_id.marca_id', '=', tmarca_id)]"/>
+                                <field name="modelo_id" string="Modelo de equipo" create="1" domain="[('marca_id.modelo_id', '=', modelo_id)]"/>
                             </group>
                         </page>
                 </xpath>
