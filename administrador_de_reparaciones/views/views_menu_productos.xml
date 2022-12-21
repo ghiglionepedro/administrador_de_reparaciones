@@ -1,10 +1,33 @@
 
 <odoo>
     <data>
-  
-        <menuitem id="menu_repair_products" name="Products" parent="repair.menu_main" />
-        <menuitem id="menu_repair_product_menu_catalog" name="Products" parent="menu_repair_products" />
-        <menuitem id="menu_repair_menu_product" name="Product Variants" parent="menu_repair_products" />
+
+        <!--  Añade la opcion de Productos al menu de configuración en la aplicación de reparaciones-->
+        <record id="action_repair_product_template" model="ir.actions.act_window">
+            <field name="name">repair_product_template</field>
+            <field name="res_model">product.template</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Producto
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_product_template" name="producto" parent="repair.repair_menu_config" action="action_repair_product_template" sequence="10"/>
+
+
+        <!--  Añade la opcion de Productos al menu de configuración en la aplicación de reparaciones-->
+        <record id="action_repair_product_product" model="ir.actions.act_window">
+            <field name="name">repair_product_product</field>
+            <field name="res_model">product.product</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Variante de producto
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_product_product" name="variante de producto" parent="repair.repair_menu_config" action="action_repair_product_product" sequence="11"/>
 
     </data>
 </odoo>
