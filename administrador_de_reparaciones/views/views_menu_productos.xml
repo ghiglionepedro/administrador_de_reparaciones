@@ -2,7 +2,7 @@
 <odoo>
     <data>
 
-        <menuitem id="menu_repair_product" name="Productos" parent="repair.menu_main" />
+        <menuitem id="menu_repair_product" name="Productos" parent="repair.menu_repair_order" />
 
         <!--  Añade la opcion de Productos al menu de configuración en la aplicación de reparaciones-->
         <record id="action_repair_product_template" model="ir.actions.act_window">
