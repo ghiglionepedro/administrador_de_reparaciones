@@ -1,6 +1,6 @@
 <odoo>
   <data>
-        <record model="ir.ui.view" id="repair_product_tree_view">
+        <record model="ir.ui.view" id="repair_product_product_tree_view">
             <field name="name">repair.product.product.tree</field>
             <field name="model">product.product</field>
             <field name="inherit_id" ref="product.product_product_tree_view"/>
@@ -13,8 +13,7 @@
             </field>
         </record>
 
-
-        <record model="ir.ui.view" id="repair_product_form_view">
+        <record model="ir.ui.view" id="repair_product_product_form_view">
             <field name="name">repair.product.product.form</field>
             <field name="model">product.product</field>
             <field name="inherit_id" ref="product.product_template_form_view"/>
@@ -28,5 +27,6 @@
                 </xpath>
             </field>
         </record>
+
   </data>
 </odoo>
