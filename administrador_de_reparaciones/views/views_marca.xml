@@ -7,6 +7,7 @@
         <field name="arch" type="xml">
             <tree string="Marcas">
                 <field name="nombre" />
+                <field name="tipo_equipo_id" widget="many2one_select" />
             </tree>
         </field>
     </record>
@@ -18,9 +19,12 @@
         <field name="type">form</field>
         <field name="arch" type="xml">
             <form string="Marca">
+                <sheet>
                 <group>
                     <field name="nombre" />
+                        <field name="tipo_equipo_id" widget="many2one_select" />
                 </group>
+                </sheet>
             </form>
         </field>
     </record>

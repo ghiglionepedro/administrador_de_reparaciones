@@ -18,9 +18,11 @@
             <field name="type">form</field>
             <field name="arch" type="xml">
                 <form string="Tipo de equipo">
+                <sheet>
                     <group>
                         <field name="nombre" />
                     </group>
+                </sheet>
                 </form>
             </field>
         </record>

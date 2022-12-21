@@ -6,3 +6,4 @@ class administrador_reparaciones_modelo(models.Model):
     _description = 'Modelos de los equipos'
 
     nombre = fields.Char(string='Nombre', required=True)
+    marca_id = fields.Many2one('product.product.marca', string='Marca', required=True)
