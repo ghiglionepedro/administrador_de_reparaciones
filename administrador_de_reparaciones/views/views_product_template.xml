@@ -5,7 +5,7 @@
             <field name="model">product.template</field>
             <field name="inherit_id" ref="product.product_template_tree_view"/>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='barcode']" position="before">
+                <xpath expr="//field[@name='barcode']" position="after">
                     <field name="tipo_equipo_id"/>
                     <field name="marca_id"/>
                     <field name="modelo_id"/>
@@ -14,11 +14,11 @@
         </record>
 
         <record model="ir.ui.view" id="repair_product_template_form_view">
-            <field name="name">repair.product.product.form</field>
+            <field name="name">repair.product.template.form</field>
             <field name="model">product.template</field>
             <field name="inherit_id" ref="product.product_template_form_view"/>
             <field name="arch" type="xml">
-                <xpath expr="//notebook/page[@name='inventory']" position="before">
+                <xpath expr="//notebook/page[@name='sales']" position="before">
                         <page string="Reparaciones" name="repairs">
                             <field name="tipo_equipo_id" string="Tipo de equipo"/>
                             <field name="marca_id" string="Marca de equipo"/>
