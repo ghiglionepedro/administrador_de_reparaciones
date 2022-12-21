@@ -15,7 +15,7 @@
             </field>
         </record>
 
-        <menuitem id="menu_product_template" name="Productos" parent="repair.menu_repair_product" action="action_repair_product_template" sequence="10"/>
+        <menuitem id="menu_product_template" name="Productos" parent="menu_repair_product" action="action_repair_product_template" sequence="10"/>
 
 
         <!--  Añade la opcion de Productos al menu de configuración en la aplicación de reparaciones-->
@@ -29,7 +29,7 @@
             </field>
         </record>
 
-        <menuitem id="menu_product_product" name="Variantes de producto" parent="repair.menu_repair_product" action="action_repair_product_product" sequence="11"/>
+        <menuitem id="menu_product_product" name="Variantes de producto" parent="menu_repair_product" action="action_repair_product_product" sequence="11"/>
 
     </data>
 </odoo>
