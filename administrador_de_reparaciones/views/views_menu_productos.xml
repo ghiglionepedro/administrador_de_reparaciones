@@ -2,9 +2,13 @@
 <odoo>
     <data>
   
-
-        <menuitem id="repair_product_menu_catalog" name="Products" parent="sale_menu_root" sequence="4" />
-        <menuitem id="repair_menu_product" name="Product Variants" parent="product_menu_catalog" sequence="2" />
+        <menuitem id="menu_repair_products"
+            name="Sales"
+            web_icon="sale_management,static/description/icon.png"
+            active="False"
+            sequence="1"/>
+        <menuitem id="menu_repair_product_menu_catalog" name="Products" parent="menu_repair_products" sequence="2" />
+        <menuitem id="menu_repair_menu_product" name="Product Variants" parent="menu_repair_products" sequence="3" />
 
     </data>
 </odoo>
