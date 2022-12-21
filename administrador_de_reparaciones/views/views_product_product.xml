@@ -5,7 +5,7 @@
             <field name="model">product.product</field>
             <field name="inherit_id" ref="product.product_product_tree_view"/>
             <field name="arch" type="xml">
-                <xpath expr="//field[@name='list_price']" position="before">
+                <xpath expr="//field[@name='name']" position="before">
                     <field name="tipo_equipo_id"/>
                     <field name="marca_id"/>
                     <field name="modelo_id"/>
