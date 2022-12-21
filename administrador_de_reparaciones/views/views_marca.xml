@@ -6,8 +6,8 @@
         <field name="type">tree</field>
         <field name="arch" type="xml">
             <tree string="Marcas">
-                <field name="nombre" />
                 <field name="tipo_equipo_id" widget="many2one_select" />
+                <field name="nombre" />
             </tree>
         </field>
     </record>
@@ -20,10 +20,10 @@
         <field name="arch" type="xml">
             <form string="Marca">
                 <sheet>
-                <group>
-                    <field name="nombre" />
+                    <group>
                         <field name="tipo_equipo_id" widget="many2one_select"  create="1"/>
-                </group>
+                        <field name="nombre" />
+                    </group>
                 </sheet>
             </form>
         </field>
