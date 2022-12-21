@@ -23,7 +23,7 @@
                 <sheet>
                     <group>
                         <field name="nombre" />
-                        <field name="marca_id" widget="many2one_select" />
+                        <field name="marca_id" widget="many2one_select"  create="1"/>
                     </group>
                 </sheet>
             </form>
