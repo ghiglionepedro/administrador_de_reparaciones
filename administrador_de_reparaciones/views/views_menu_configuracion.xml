@@ -39,7 +39,7 @@
             </field>
         </record>
 
-        <menuitem id="menu_product_product_modelos" name="Modelos" parent="repair.repair_menu_config" action="action_product_product_modelos" sequence="12"/>
+        <menuitem id="menu_product_product_modelo" name="Modelos" parent="repair.repair_menu_config" action="action_product_product_modelo" sequence="12"/>
 
 
   </data>
