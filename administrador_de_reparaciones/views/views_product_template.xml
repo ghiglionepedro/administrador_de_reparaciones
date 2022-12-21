@@ -20,9 +20,9 @@
             <field name="arch" type="xml">
                 <xpath expr="//notebook/page[@name='inventory']" position="before">
                         <page string="Reparaciones" name="repairs">
-                            <field name="tipo_equipo_id"/>
-                            <field name="marca_id"/>
-                            <field name="modelo_id"/>
+                            <field name="tipo_equipo_id" string="Tipo de equipo"/>
+                            <field name="marca_id" string="Marca de equipo"/>
+                            <field name="modelo_id" string="Modelo de equipo"/>
                         </page>
                 </xpath>
             </field>
