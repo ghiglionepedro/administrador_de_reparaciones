@@ -6,7 +6,7 @@
         <field name="type">tree</field>
         <field name="arch" type="xml">
             <tree string="Modelos">
-                <field name="marca_id.tipo_equipo_id" widget="many2one_select"  create="1" domain="[('marca_id', '=', marca_id)]"/>
+                <!--<field name="marca_id.tipo_equipo_id" widget="many2one_select"  create="1" domain="[('marca_id', '=', marca_id)]"/>-->
                 <field name="marca_id" widget="many2one_select" />
                 <field name="nombre" />
                 <!--<field name="marca_id.tipo_equipo_id" widget="many2one_select" />-->
