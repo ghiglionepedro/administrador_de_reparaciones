@@ -29,8 +29,6 @@
         'data/data.xml',
         'views/views_marca.xml',
         'views/views_modelo.xml',
-        'views/views_product_product.xml',
-        'views/views_product_template.xml',
         'views/views_tipo_equipo.xml',
         'views/views_menu_configuracion.xml',
         'views/views_menu_productos.xml',
