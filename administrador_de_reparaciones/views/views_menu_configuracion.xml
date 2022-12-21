@@ -1,0 +1,46 @@
+<odoo>
+  <data>
+
+        <!--  Añade la opcion de Tipos de equipos al menu de configuración en la aplicación de reparaciones-->
+        <record id="action_product_product_tipo_equipo" model="ir.actions.act_window">
+            <field name="name">product_product_tipo_equipo</field>
+            <field name="res_model">product.product.tipo.equipo</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Tipos de producto
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_product_product_tipo_equipo" name="Tipos de equipos" parent="repair_menu_config" action="action_product_product_tipo_equipo"/>
+
+
+        <!--  Añade la opcion de marcas al menu de configuración en la aplicación de reparaciones-->
+        <record id="action_product_product_marca" model="ir.actions.act_window">
+            <field name="name">product_product_marca</field>
+            <field name="res_model">product.product.marca</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Marcas
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_product_product_marca" name="Marcas" parent="repair_menu_config" action="action_product_product_marca"/>
+
+                <!--  Añade la opcion de modelos al menu de configuración en la aplicación de reparaciones-->
+        <record id="action_product_product_modelo" model="ir.actions.act_window">
+            <field name="name">product_product_modelo</field>
+            <field name="res_model">product.product.modelo</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Modelos
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_product_product_modelos" name="Modelos" parent="repair_menu_config" action="action_product_product_modelos"/>
+
+
+  </data>
+</odoo>
