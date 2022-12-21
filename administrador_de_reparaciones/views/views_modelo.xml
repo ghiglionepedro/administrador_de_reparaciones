@@ -8,7 +8,7 @@
             <tree string="Modelos">
                 <field name="nombre" />
                 <field name="marca_id" widget="many2one_select" />
-                <field name="marca_id.tipo_equipo_id" widget="many2one_select" />
+                <!--<field name="marca_id.tipo_equipo_id" widget="many2one_select" />-->
             </tree>
         </field>
     </record>
