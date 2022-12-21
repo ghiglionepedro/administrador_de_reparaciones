@@ -12,7 +12,7 @@
             </field>
         </record>
 
-        <menuitem id="menu_product_product_tipo_equipo" name="Tipos de equipos" parent="repair_menu_config" action="action_product_product_tipo_equipo"/>
+        <menuitem id="menu_product_product_tipo_equipo" name="Tipos de equipos" parent="repair.repair_menu_config" action="action_product_product_tipo_equipo" sequence="10"/>
 
 
         <!--  Añade la opcion de marcas al menu de configuración en la aplicación de reparaciones-->
@@ -26,7 +26,7 @@
             </field>
         </record>
 
-        <menuitem id="menu_product_product_marca" name="Marcas" parent="repair_menu_config" action="action_product_product_marca"/>
+        <menuitem id="menu_product_product_marca" name="Marcas" parent="repair.repair_menu_config" action="action_product_product_marca" sequence="11"/>
 
                 <!--  Añade la opcion de modelos al menu de configuración en la aplicación de reparaciones-->
         <record id="action_product_product_modelo" model="ir.actions.act_window">
@@ -39,7 +39,7 @@
             </field>
         </record>
 
-        <menuitem id="menu_product_product_modelos" name="Modelos" parent="repair_menu_config" action="action_product_product_modelos"/>
+        <menuitem id="menu_product_product_modelos" name="Modelos" parent="repair.repair_menu_config" action="action_product_product_modelos" sequence="12"/>
 
 
   </data>
