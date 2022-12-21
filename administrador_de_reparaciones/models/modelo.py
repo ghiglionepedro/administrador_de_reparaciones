@@ -7,3 +7,4 @@ class administrador_reparaciones_modelo(models.Model):
 
     nombre = fields.Char(string='Nombre', required=True)
     marca_id = fields.Many2one('product.product.marca', string='Marca', required=True)
+    tipo_equipo_id = fields.Many2one(related='marca_id.tipo_equipo_id', string='Tipo de equipo', readonly=True)
