@@ -1,0 +1,10 @@
+
+<odoo>
+    <data>
+  
+
+        <menuitem id="repair_product_menu_catalog" name="Products" parent="sale_menu_root" sequence="4" />
+        <menuitem id="repair_menu_product" name="Product Variants" parent="product_menu_catalog" sequence="2" />
+
+    </data>
+</odoo>

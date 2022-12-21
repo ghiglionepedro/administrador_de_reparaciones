@@ -32,6 +32,7 @@
         'views/views_product.xml',
         'views/views_tipo_equipo.xml',
         'views/views_menu_configuracion.xml',
+        'views/views_menu_productos.xml',
         'security/ir.model.access.csv',
     ],
     # only loaded in demonstration mode
