@@ -21,7 +21,7 @@
             <form string="Marca">
                 <sheet>
                     <group>
-                        <field name="tipo_equipo_id" widget="many2one_select"  create="1"/>
+                        <field name="tipo_equipo_id" widget="many2one_select"  create="1" update="1"/>
                         <field name="nombre" />
                     </group>
                 </sheet>

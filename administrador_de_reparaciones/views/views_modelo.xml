@@ -22,7 +22,7 @@
             <form string="Modelo">   
                 <sheet>
                     <group>
-                        <field name="tipo_equipo_id" widget="many2one_select"  create="1" />
+                        <field name="tipo_equipo_id" widget="many2one_select"  create="1"  update="1"/>
                         <field name="marca_id" widget="many2one_select" domain="[('tipo_equipo_id', '=', tipo_equipo_id)]" />
                         <field name="nombre" />
                     </group>

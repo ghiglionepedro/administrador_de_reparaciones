@@ -21,9 +21,9 @@
                 <xpath expr="//notebook/page[@name='sales']" position="before">
                         <page string="Reparaciones" name="repairs">
                             <group>
-                                <field name="tipo_equipo_id" string="Tipo de equipo" create="1"/>
-                                <field name="marca_id" string="Marca de equipo" create="1" domain="[('tipo_equipo_id', '=', tipo_equipo_id)]"/>
-                                <field name="modelo_id" string="Modelo de equipo" create="1" domain="[('marca_id', '=', marca_id)]"/>
+                                <field name="tipo_equipo_id" string="Tipo de equipo" create="1"  update="1"/>
+                                <field name="marca_id" string="Marca de equipo" create="1"  update="1" domain="[('tipo_equipo_id', '=', tipo_equipo_id)]"/>
+                                <field name="modelo_id" string="Modelo de equipo" create="1"  update="1" domain="[('marca_id', '=', marca_id)]"/>
                             </group>
                         </page>
                 </xpath>
