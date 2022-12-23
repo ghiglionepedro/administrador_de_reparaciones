@@ -7,4 +7,4 @@ class administrador_reparaciones_modelo(models.Model):
 
     nombre = fields.Char(string='Nombre', required=True)
     marca_id = fields.Many2many('product.product.marca', string='Marca', readonly=True)
-    tipo_equipo = fields.Many2many('product.product.tipo.equipo', string='Marca', readonly=True)
+    tipo_equipo = fields.Many2many('product.product.tipo.equipo', string='Marca', related="marca_id.tipo_equipo_id")
